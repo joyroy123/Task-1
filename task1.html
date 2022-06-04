@@ -1,0 +1,61 @@
+<html>
+    <head>
+      <title>Form</title>  
+    </head>
+    <body>
+        
+        <form action="submit.php"method="post">
+            
+            <fieldset>
+                <legend>
+                    General
+                </legend><br>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname"><br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname"><br><br>
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+
+        </fieldset>
+
+
+
+        
+       
+        
+            <fieldset>
+                <legend>
+                    Contact
+                </legend><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email"><br><br>
+            <label for="mobileno">Mobile No:</label>
+            <input type="number" name="mobileno"><br><br>
+
+        </fieldset>
+        
+       
+
+
+        <fieldset>  
+            <legend>
+                Address
+            </legend><br>
+            <label for="street/house/road">Street/House/Road:</label>
+            <input type="text" name="street/house/road"><br><br>
+            <label for="country">Country</label>
+            <select id="country" name="country">
+            <option value="bd">Bangladesh</option>
+            <option value="usa">USA</option>
+            <option value="india">India</option>
+</select>
+</fieldset><br>
+<input type="submit"value="Register">
+</form>
+
+
+    </body>
+</html>
